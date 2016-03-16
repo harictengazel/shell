@@ -6,12 +6,12 @@ DBLIST="dblist.txt"
 DAT=`date +%Y-%m-%d`
 
 if [ ! -f $DBLIST ]; then
-        echo $DBLIST not found
+        echo "$DBLIST not found"
         exit 0
 fi 
 
 if [ ! -f ~/.my.cnf ]; then
-        echo .my.cnf not found
+        echo ".my.cnf not found"
         exit 0
 fi 
 
