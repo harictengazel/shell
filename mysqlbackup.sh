@@ -1,5 +1,3 @@
-# /usr/bin/env bash
-# Mysql backup script by Ercan TOPALAK
 
 DBLIST="dblist.txt"
 
